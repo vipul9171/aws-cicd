@@ -12,8 +12,8 @@ import com.nagarro.itemservice.dto.Items;
 public class ItemReposirtory {
 
 	public List<Items> getAllItems() {
-		return Stream.of(new Items(101, "Samsung", "Mobile"), new Items(102, "Home Appliace", "Washing Machine"),
-				new Items(103, "Home Appliace", "Air Conditioning")).collect(Collectors.toList());
+		return Stream.of(new Items(151, "Samsung", "Mobile"), new Items(1062, "Home Appliace", "Washing Machine"),
+				new Items(13, "Home Appliace", "Air Conditioning")).collect(Collectors.toList());
 	}
 
 }
